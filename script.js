@@ -16,9 +16,6 @@ inp1.addEventListener("keyup",()=>{
         p1.style.color = "green";
     }
 });
-function func(){
-    document.getElementById("reg").style.display = "block";
-}
 inp4.addEventListener("keyup", () => {
     if(inp3.value === inp4.value){
         p4.innerHTML = "Пароли совподают";
